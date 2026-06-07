@@ -7,6 +7,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://brycel20102010.github.io',
+	base: '/engineering-curiosities',
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{
